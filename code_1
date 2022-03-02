@@ -1,0 +1,6 @@
+func MySqrt(f float64) (float64, bool) {
+	if f >= 0 {
+		return math.Sqrt(f), true
+	}
+	return 0, false
+}
